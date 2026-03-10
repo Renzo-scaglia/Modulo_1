@@ -1,6 +1,8 @@
 # Módulo 1 - Técnicas y Herramientas Modernas
 
 **Alumno:** Renzo Scaglia
+**Carrera:** Ingeniería Mecatrónica
+**Año: 2026**
 **Usuario GitHub:** Renzo-scaglia
 
 ---
