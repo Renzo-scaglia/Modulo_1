@@ -2,10 +2,9 @@
 
 **Alumno:** Renzo Scaglia
 
-
 **Carrera:** Ingeniería Mecatrónica
 
-**Año: 2026**
+**Año:** 2026
 
 **Usuario GitHub:** Renzo-scaglia
 
