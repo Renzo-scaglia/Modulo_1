@@ -12,8 +12,8 @@ En este repositorio se encuentran los ejercicios y desarrollos correspondientes 
 
 ## 🚀 Ejercicios a desarrollar
 
-- [ ] **Ejercicio 1:** *(Acá podés poner de qué trata cuando te den la consigna)*
-- [ ] **Ejercicio 2:** *(Acá podés poner de qué trata cuando te den la consigna)*
-- [ ] **Ejercicio 3:** *(Acá podés poner de qué trata cuando te den la consigna)*
+- [ ] **Ejercicio 1:** 
+- [ ] **Ejercicio 2:** 
+- [ ] **Ejercicio 3:** 
 
 ---
