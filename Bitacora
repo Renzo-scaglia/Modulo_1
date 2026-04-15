@@ -1,1 +1,14 @@
+**BITACORA DE TECNICAS Y HERRAMIENTAS MODERNAS**
 
+**01/04/2026**
+* **Monitoreo de Radiofrecuencia:** Un equipo se dedicó a escanear las frecuencias de la repetidora local en el cerro. Se familiarizaron con el software de sintonización y se logró recibir y grabar mensajes con éxito.
+* **Infraestructura y Redes:** Otro grupo trabajó en montar un servidor VPN para acceder por SSH a la computadora del proyecto. Al no disponer de una IP pública, se implementó un *workaround* utilizando un servicio de ruteo externo.
+* **Teoría:** El resto del equipo se enfocó en analizar la presentación del profesor.
+
+**07/04/2026**
+* **Control de Rotores:** Se investigó y configuró el módulo de rotores en `gpredict`. Este sistema está diseñado para interactuar con servidores de `hamlib` (creados mediante el comando `rotctld`), requiriendo únicamente la dirección IP y el puerto del servidor.
+* **Protocolos de Comunicación:** Se analizó que `rotctld` puede conectarse a los rotores vía TCP/IP o puertos seriales. El hardware controlador del rotor físico debe implementar uno de los protocolos compatibles con `rotctld`.
+* **Próximos pasos (Arduino):** Se definió que el protocolo más accesible para avanzar es **GS-232**. Con algunos ejemplos de código ya recopilados, el paso a seguir es armar el prototipo y testearlo en una placa Arduino.
+
+**10/04/2026**
+* **Pruebas de Antena:** Se realizaron pruebas prácticas utilizando la antena dipolo.
