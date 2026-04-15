@@ -1,0 +1,55 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+
+\title{\textbf{Machete de Estudio: Metodologías Ágiles, Scrum y Lean Six Sigma}}
+\author{Renzo Scaglia}
+\date{Facultad de Ingeniería UNCUYO}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+El presente informe tiene como objetivo servir de guía rápida de repaso sobre los fundamentos de la metodología Ágil, el marco de trabajo Scrum, y los niveles de certificación iniciales (White Belt y Green Belt) correspondientes a la metodología Lean Six Sigma.
+\end{abstract}
+
+\section{Metodologías Ágiles}
+Las metodologías ágiles nacen como respuesta a los modelos tradicionales de desarrollo (como el modelo en cascada o "Waterfall"). En lugar de planificar todo el proyecto al principio y esperar meses para ver un resultado, el enfoque ágil propone entregas continuas, adaptabilidad al cambio y colaboración constante con el cliente.
+
+\textbf{Concepto Clave:} El valor principal es responder ante el cambio en lugar de seguir ciegamente un plan.
+
+\textbf{Ejemplo Práctico:} Imaginate que estás desarrollando una app para pedir comida. En un enfoque tradicional, tardarías un año en lanzarla perfecta. En un enfoque ágil, en un mes lanzás una versión básica que solo deja pedir pizzas, el usuario la prueba, te da feedback, y al mes siguiente le agregás la función de pedir hamburguesas basándote en lo que la gente realmente quiere usar.
+
+\section{El Framework Scrum}
+Scrum no es una metodología en sí, sino un "marco de trabajo" (framework) dentro de la filosofía ágil. Te da un conjunto de reglas, roles y eventos para poder aplicar la agilidad en la vida real.
+
+\subsection{Roles y Eventos Principales}
+\begin{itemize}
+    \item \textbf{Product Owner:} Es la voz del cliente. Define qué es lo que hay que hacer y prioriza la lista de tareas (el Product Backlog).
+    \item \textbf{Scrum Master:} Es el facilitador. Su trabajo es asegurar que el equipo entienda y aplique Scrum sin bloqueos.
+    \item \textbf{Developers:} Los que hacen el trabajo real (programadores, ingenieros, diseñadores).
+    \item \textbf{Sprint:} Es el corazón de Scrum. Es un ciclo de trabajo corto (generalmente de 2 a 4 semanas) donde el equipo se compromete a entregar una parte funcional del producto.
+\end{itemize}
+
+\textbf{Ejemplo Práctico:} Siguiendo con la app de comida, el equipo define un "Sprint" de dos semanas. El objetivo de esas dos semanas es armar la pantalla de registro de usuarios. Todos los días hacen una reunión de 15 minutos (Daily Scrum) para contar qué hicieron ayer, qué harán hoy y si tienen algún obstáculo. Al final de las dos semanas, entregan la pantalla de registro funcionando.
+
+\section{Lean Six Sigma: White y Green Belts}
+Acá cambiamos de paradigma. Lean Six Sigma es una metodología orientada a la mejora continua, la eliminación de desperdicios (Lean) y la reducción de la variabilidad y defectos en un proceso (Six Sigma). Sus niveles de conocimiento se miden en "cinturones" (Belts), como en las artes marciales.
+
+\subsection{White Belt (Cinturón Blanco)}
+Es el nivel más básico. Un White Belt entiende los fundamentos de Lean Six Sigma, sabe qué es el desperdicio y comprende el vocabulario básico. No lidera proyectos, pero participa en equipos de mejora ayudando con tareas sencillas.
+
+\textbf{Ejemplo Práctico:} Un operario en una fábrica o un programador junior (White Belt) se da cuenta de que un proceso de carga de datos es muy lento. Aunque él no diseña la solución estructural, reporta el problema usando la terminología correcta y participa en la reunión aportando datos sobre cuánto tiempo se pierde.
+
+\subsection{Green Belt (Cinturón Verde)}
+El Green Belt es un profesional que ya está capacitado para liderar proyectos de mejora a pequeña o mediana escala dentro de su propia área de trabajo, invirtiendo parte de su tiempo (por ejemplo, el 20\%) en estas tareas, mientras sigue con sus responsabilidades normales. Utilizan la estructura DMAIC (Definir, Medir, Analizar, Mejorar, Controlar).
+
+\textbf{Ejemplo Práctico:} El líder técnico de un equipo (Green Belt) nota que el 15\% de los servidores fallan al reiniciarse. Aplica la metodología DMAIC: define el problema, mide con qué frecuencia ocurre, analiza que el error pasa por un pico de memoria, mejora el código de arranque y establece un control automático para monitorearlo a futuro.
+
+\section{Conclusión}
+Mientras que Ágil y Scrum se enfocan en la entrega de valor rápido y adaptabilidad frente a la incertidumbre, las herramientas de Six Sigma (y sus niveles Belt) aportan el rigor analítico para asegurar que esos procesos se realicen con la menor cantidad de defectos posible.
+
+\end{document}
